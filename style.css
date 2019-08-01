@@ -1,0 +1,68 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+/* header */
+.header{
+ background-color: #1C1C1C;
+ height:70px;
+ width:1366px;
+}
+
+.log1{
+ width:80px;
+ position: relative;
+ left:20px;
+ bottom:10px;
+}
+
+.headertab-wrap{
+ overflow: hidden;
+ position: relative;
+ top:10px;
+ float: right;
+}
+
+.headertab{
+ position: relative;
+ list-style:none;
+ float:left;
+ margin-right: 20px;
+}
+
+/* main */
+.title{
+ position: relative;
+ top:120px;
+ left:10px;
+}
+
+.main{
+ background-color: white;
+ height:540px;
+ width:1325px;
+ text-align: center;
+}
+
+.maincontent-wrap{
+ position: absolute;
+ top:460px;
+ left:510px;
+}
+
+.maincontent{
+ overflow: hidden;
+ float:left;
+}
+
+.main-registration{
+ margin-left: 200px;
+}
+
+/* footer */
+.footer{
+ background-color: #1C1C1C;
+ height:79px;
+ width:1366px;
+}
