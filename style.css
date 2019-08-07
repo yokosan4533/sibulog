@@ -7,7 +7,7 @@ body{
 .header{
  background-color: #1C1C1C;
  height:70px;
- width:1366px;
+ width:1351px;
 }
 
 .log1{
@@ -41,7 +41,7 @@ body{
 .main{
  background-color: white;
  height:540px;
- width:1325px;
+ width:1340px;
  text-align: center;
 }
 
@@ -60,9 +60,22 @@ body{
  margin-left: 200px;
 }
 
+
+/*signup*/
+.signup-background{
+ position: relative;
+ top: 150px;
+ height: 500px;
+}
+
+.form{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* footer */
 .footer{
  background-color: #1C1C1C;
- height:79px;
- width:1366px;
+ height:60px;
+ width:1351px;
 }

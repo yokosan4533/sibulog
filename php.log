@@ -1,0 +1,14 @@
+[07-Aug-2019 03:12:13 UTC] PHP Notice:  Undefined variable: dsn in /Applications/MAMP/htdocs/portfolio1/signup.php on line 103
+[07-Aug-2019 03:12:13 UTC] エラー発生:invalid data source name
+[07-Aug-2019 03:12:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/signup.php:66
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(142): validMinLen('katuobusi1133', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/signup.php on line 66
+[07-Aug-2019 04:42:26 UTC] PHP Notice:  Undefined variable: dsn in /Applications/MAMP/htdocs/portfolio1/signup.php on line 103
+[07-Aug-2019 04:42:26 UTC] エラー発生:invalid data source name
+[07-Aug-2019 04:42:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/signup.php:66
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(142): validMinLen('kaeituka0917', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/signup.php on line 66
