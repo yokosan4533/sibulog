@@ -4,12 +4,11 @@
 ini_set('log_errors','on');
 //ログの出力先
 ini_set('error_log','php.log');
-
 //デバッグ
 $debug_flg = true;
 //デバッグログ関数
 function debug($str){
-    global debug_flg;
+    global $debug_flg;
     if(!empty($debug_log)){
      error_log('デバッグ：'.$str);
     }
@@ -62,7 +61,7 @@ function validRequired($str,$key){
  }
 }
 
-//バリデーション用関数（Email形式チェック）
+//バリデーション用関数（Email形式チェック)
 function validEmail($str, $key){
   if(!preg_match("/^([a-zA-Z0-9])+([a-zA-Z0-9\._-])*@([a-zA-Z0-9_-])+([a-zA-Z0-9\._-]+)+$/", $str)){
     global $err_msg;
@@ -82,7 +81,7 @@ function validEmailDup($email){
         //クエリ実行
         $stml = queryPost($dbh,$sql,$data);
         //クエリ結果の値を取得*PDO::FETCH_ASSOCはキーのついた要素全てを取り出す.
-        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+        $result = $stml->fetch(PDO::FETCH_ASSOC);
         if(!empty($result)){
          $err_msg['email'] = MSG08;   
         }
@@ -101,7 +100,10 @@ function validMatch($str1,$str2,$key){
 
 //バリテーション関数(文字数チェック*最小) 
 function validMinLen($str,$key,$min = 6){
-    if(md_strlen($str) < $min){
+    $test = mb_strlen($str);
+    var_dump ($test);
+    echo $test;
+    if(mb_strlen($str) < $min){
         global $err_msg;
         $err_msg[$key] = MSG5; 
     }
@@ -121,7 +123,6 @@ function validHalf($str){
         global $err_msg;
         $err_msg[$key] = MSG04;
     }
-       
 }
 
 //DB接続
@@ -137,7 +138,7 @@ function dbConnect(){
     PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true,
     );
     //pdoオブジェクトの生成
-    $dbh = new PDO($dsn,$user,$password,$options);
+    $dbh = new PDO($dns,$user,$password,$options);
     return $dbh;
 }
        

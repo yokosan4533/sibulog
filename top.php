@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel='stylesheet' href="style.css">
-    <title>portfolio</title>
-  </head>
+   <?php   
+     require'head.php';
+    ?>
   <body>
       
     <?php   

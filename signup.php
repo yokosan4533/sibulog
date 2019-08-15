@@ -1,4 +1,6 @@
 <?php
+
+require 'function.php';
 //POST送信されているかどうかの確認
 if(!empty($_POST)){
   $email = $_POST['email'];

@@ -12,3 +12,166 @@ Stack trace:
 #0 /Applications/MAMP/htdocs/portfolio1/signup.php(142): validMinLen('kaeituka0917', 'pass')
 #1 {main}
   thrown in /Applications/MAMP/htdocs/portfolio1/signup.php on line 66
+[07-Aug-2019 08:35:42 UTC] PHP Warning:  require(auth.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio1/login.php on line 11
+[07-Aug-2019 08:35:42 UTC] PHP Fatal error:  require(): Failed opening required 'auth.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/portfolio1/login.php on line 11
+[07-Aug-2019 09:36:47 UTC] PHP Notice:  Undefined variable: dsn in /Applications/MAMP/htdocs/portfolio1/function.php on line 140
+[07-Aug-2019 09:36:47 UTC] エラー発生:invalid data source name
+[07-Aug-2019 09:36:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('2srdRUz2TQRpxp3', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[07-Aug-2019 09:37:50 UTC] PHP Notice:  Undefined variable: stmt in /Applications/MAMP/htdocs/portfolio1/function.php on line 85
+[07-Aug-2019 09:37:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /Applications/MAMP/htdocs/portfolio1/function.php:85
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(23): validEmailDup('takuan.1204@gma...')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 85
+[07-Aug-2019 09:38:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('2srdRUz2TQRpxp3', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[07-Aug-2019 09:49:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('2srdRUz2TQRpxp3', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[07-Aug-2019 09:50:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('2srdRUz2TQRpxp3', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[07-Aug-2019 10:10:32 UTC] PHP Notice:  Undefined variable: array in /Applications/MAMP/htdocs/portfolio1/function.php on line 105
+[07-Aug-2019 10:10:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:107
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('2srdRUz2TQRpxp3', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 107
+[07-Aug-2019 10:10:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:107
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('2srdRUz2TQRpxp3', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 107
+[07-Aug-2019 10:12:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('2srdRUz2TQRpxp3', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[07-Aug-2019 10:19:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('2srdRUz2TQRpxp3', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[07-Aug-2019 10:22:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('2srdRUz2TQRpxp3', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[07-Aug-2019 10:23:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('2srdRUz2TQRpxp3', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[07-Aug-2019 10:24:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('2srdRUz2TQRpxp3', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[08-Aug-2019 03:02:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('kaeituka0917', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[08-Aug-2019 03:16:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('kaeituka0917', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[08-Aug-2019 03:38:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('kaeituka0917', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[08-Aug-2019 04:00:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('kaeituka0917', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[08-Aug-2019 05:38:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('yuito0917', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[08-Aug-2019 06:07:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('yuito0917', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[08-Aug-2019 06:08:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function validMinLen() in /Applications/MAMP/htdocs/portfolio1/signup.php:30
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/signup.php on line 30
+[08-Aug-2019 06:17:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function validMinLen() in /Applications/MAMP/htdocs/portfolio1/signup.php:35
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/signup.php on line 35
+[08-Aug-2019 07:02:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('yuito0917', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[08-Aug-2019 07:03:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('yuito0917', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[08-Aug-2019 07:05:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('yuito0917', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[08-Aug-2019 07:07:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('yuito0917', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[08-Aug-2019 07:15:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('yuito0917', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[08-Aug-2019 07:42:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('kaeituka0917', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[08-Aug-2019 07:53:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function md_strlen() in /Applications/MAMP/htdocs/portfolio1/function.php:104
+Stack trace:
+#0 /Applications/MAMP/htdocs/portfolio1/signup.php(30): validMinLen('yuito0917', 'pass')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/portfolio1/function.php on line 104
+[13-Aug-2019 12:14:54 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/portfolio1/withdraw.php on line 22
+[13-Aug-2019 12:14:54 Asia/Tokyo] PHP Notice:  Undefined variable: data in /Applications/MAMP/htdocs/portfolio1/withdraw.php on line 24
+[13-Aug-2019 12:14:54 Asia/Tokyo] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /Applications/MAMP/htdocs/portfolio1/function.php on line 150
+[13-Aug-2019 12:14:54 Asia/Tokyo] PHP Notice:  Undefined variable: data in /Applications/MAMP/htdocs/portfolio1/withdraw.php on line 25
+[13-Aug-2019 12:14:54 Asia/Tokyo] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /Applications/MAMP/htdocs/portfolio1/function.php on line 150
+[13-Aug-2019 12:14:54 Asia/Tokyo] PHP Notice:  Undefined variable: data in /Applications/MAMP/htdocs/portfolio1/withdraw.php on line 26
+[13-Aug-2019 12:14:54 Asia/Tokyo] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /Applications/MAMP/htdocs/portfolio1/function.php on line 150
+[13-Aug-2019 12:14:54 Asia/Tokyo] PHP Notice:  Undefined variable: stml1 in /Applications/MAMP/htdocs/portfolio1/withdraw.php on line 29
+[13-Aug-2019 12:14:54 Asia/Tokyo] PHP Warning:  require(head.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio1/withdraw.php on line 54
+[13-Aug-2019 12:14:54 Asia/Tokyo] PHP Fatal error:  require(): Failed opening required 'head.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/portfolio1/withdraw.php on line 54
+[13-Aug-2019 12:15:22 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/portfolio1/withdraw.php on line 22
+[13-Aug-2019 12:15:22 Asia/Tokyo] PHP Notice:  Undefined variable: data in /Applications/MAMP/htdocs/portfolio1/withdraw.php on line 24
+[13-Aug-2019 12:15:22 Asia/Tokyo] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /Applications/MAMP/htdocs/portfolio1/function.php on line 150
+[13-Aug-2019 12:15:22 Asia/Tokyo] PHP Notice:  Undefined variable: data in /Applications/MAMP/htdocs/portfolio1/withdraw.php on line 25
+[13-Aug-2019 12:15:22 Asia/Tokyo] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /Applications/MAMP/htdocs/portfolio1/function.php on line 150
+[13-Aug-2019 12:15:22 Asia/Tokyo] PHP Notice:  Undefined variable: data in /Applications/MAMP/htdocs/portfolio1/withdraw.php on line 26
+[13-Aug-2019 12:15:22 Asia/Tokyo] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /Applications/MAMP/htdocs/portfolio1/function.php on line 150
+[13-Aug-2019 12:15:22 Asia/Tokyo] PHP Notice:  Undefined variable: stml1 in /Applications/MAMP/htdocs/portfolio1/withdraw.php on line 29
+[13-Aug-2019 12:15:22 Asia/Tokyo] PHP Warning:  require(head.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio1/withdraw.php on line 54
+[13-Aug-2019 12:15:22 Asia/Tokyo] PHP Fatal error:  require(): Failed opening required 'head.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/portfolio1/withdraw.php on line 54
+[13-Aug-2019 12:18:29 Asia/Tokyo] PHP Warning:  require(head.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio1/withdraw.php on line 58
+[13-Aug-2019 12:18:29 Asia/Tokyo] PHP Fatal error:  require(): Failed opening required 'head.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/portfolio1/withdraw.php on line 58
+[13-Aug-2019 12:19:18 Asia/Tokyo] PHP Warning:  require(head.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/portfolio1/withdraw.php on line 58
+[13-Aug-2019 12:19:18 Asia/Tokyo] PHP Fatal error:  require(): Failed opening required 'head.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/portfolio1/withdraw.php on line 58
